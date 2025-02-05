@@ -2,7 +2,11 @@
     background-image: url("img/Bitmap.jpg");
     width: 1440px;
     height: 660px;
+    text-align: start ;
 
+}
+.slide {
+  display: none;
 }
 ul{
     display: flex;
@@ -83,6 +87,7 @@ padding-top: 5px;
     }
 
     .slide {
+      display: inline;
         height: 100%;
         width: 180px;
         position: absolute;
@@ -120,7 +125,7 @@ padding-top: 5px;
       
       }
       input {
-        
+       
         visibility: hidden;
       }
       .block {
@@ -132,6 +137,7 @@ padding-top: 5px;
       border-radius: 2px;
       cursor: pointer;
       top: 60px;
+      margin-right: 500px;
       
       box-shadow: 0 0 10px rgba(0,0,0,0.3);
       }
@@ -183,6 +189,35 @@ padding-top: 5px;
         box-shadow: 0 0 15 rgba( 0,0,0,0.5);
         
                 } 
-   
-   
-}
+   .block1 {
+  width: 600px;
+  height: 700px;
+  text-align: center;
+  
+  
+   }
+   .text7 {
+    display: none;
+   }
+   .box4 {
+    display: block;
+    color: white;
+    align-items: start;
+    text-align: start;
+   }
+   .block5 {
+    display: block;
+    
+   }
+   .text8 {
+    align-items: start;
+    
+   }
+   .ul2 {
+    align-items: start;
+    text-align: start;
+   }
+              }
+              .ul2 {
+                color: white;
+              }
